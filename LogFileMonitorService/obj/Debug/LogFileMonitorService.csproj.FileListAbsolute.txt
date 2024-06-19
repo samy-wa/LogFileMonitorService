@@ -1,0 +1,7 @@
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe.config
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.pdb
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\obj\Debug\LogFileMonitorService.csproj.AssemblyReference.cache
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\obj\Debug\LogFileMonitorService.csproj.CoreCompileInputs.cache
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\obj\Debug\LogFileMonitorService.exe
+D:\TEMP\LogFileMonitorService\LogFileMonitorService\obj\Debug\LogFileMonitorService.pdb

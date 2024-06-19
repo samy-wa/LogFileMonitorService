@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe
+   logfile = D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe assembly.
+Committing assembly 'D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe
+   logfile = D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\TEMP\LogFileMonitorService\LogFileMonitorService\bin\Debug\LogFileMonitorService.exe assembly.
+Remove InstallState file because there are no installers.
