@@ -70,6 +70,10 @@ namespace LogFileMonitorService
             lastHash = CalculateFileHash(copyFile);
             if (lastHash != currentHash)
             {
+                if (!File.Exists(copyFile))
+                    File.Create(copyFile);
+
+                File.WriteAllText(copyFile, targetFile);
                 lastHash = currentHash;
                 string fileContent = File.ReadAllText(logFilePath);
                 WriteLog($"{DateTime.Now}: File changed.\n{logFilePath}");
@@ -97,6 +101,8 @@ namespace LogFileMonitorService
         }
         private void WriteLog(string message)
         {
+            if (!File.Exists(logFilePath))
+                File.Create(logFilePath);
             using (StreamWriter writer = new StreamWriter(logFilePath, true))
             {
                 writer.WriteLine(message);
